@@ -1,0 +1,51 @@
+{"$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "http://example.com/example.json",
+    "title": "Om IBA",
+    "description": "Til opgave 2",
+    "default": {},
+
+    "type": "object",
+
+        "vejnavn": {"type" : "object",
+            "properties": {
+                "kode": {"type" : "integer"},
+                "navn": {"type" : "string"},
+                "husnr": {"type" : "integer"}
+                        }
+                    },
+
+        "postnummer": {"type" : "object",
+            "properties": {
+                "nr": {"type" : "integer"},
+                "navn": {"type" : "string"},
+                "kommune": {"type": "string"}
+                        }
+                    },
+
+        "wgs84koordinat": {"type" : "object",
+            "properties": {
+                "bredde": {"type" : "number"},
+                "længde": {"type" : "number"}
+                        }
+                    },
+       
+        "tjenesteart": {"type" : "object",
+            "properties": {
+                "id": {"type" : "number"},
+                "navn": {"type" : "string"}
+                        }
+                    },
+
+        "teknologi": {"type": "object",
+            "properties": {
+                "id": {"type" : "number"},
+                "navn": {"type" : "string"}
+                        }
+                    },
+        
+        "unik_station_navn": {"type" : "string"},
+        "frekvensbaand": {"type" : "number"}
+        
+                                
+}
+

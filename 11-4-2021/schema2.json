@@ -1,0 +1,48 @@
+{"$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "http://example.com/example.json",
+    "title": "Om IBA",
+    "description": "Til opgave 2",
+    "default": {},
+    
+    "type": "object",
+
+    "IBAinfo": {"type" : "object",
+    "properties": {
+        "vat": {"type" : "integer"},
+        "name": {"type" : "string"},
+        "address": {"type" : "string"},
+        "zipcode": {"type" : "integer"},
+        "city": {"type" : "string"},
+        "phone": {"type" : "integer"},
+        "email": {"type" : "string"},
+        "employees": {"type" : "string"},
+        "industrydesc": {"type" : "string"},
+        "companydesc": {"type" : "string"},
+        "creditbankrupt": {"type" : "boolean"}
+                }
+             },
+            
+            "productionunits": {"type" : "object",
+                    "properties": {
+                        "pno": {"type" : "integer"},
+                        "name": {"type" : "string"},
+                        "address": {"type" : "string"},
+                        "zipcode": {"type" : "integer"},
+                        "city": {"type" : "string"},
+                        "phone": {"type" : "integer"},
+
+                        "email": {"type": "string"},
+                        "startdate": {"type" : "string"},
+                        "enddate": {"type" : "string"},
+                        "employees": {"type" : "null"},
+                        "industrydesc": {"type" : "string"}
+                                }
+                            }
+                
+}
+                     
+                    
+
+            
+        
+          
